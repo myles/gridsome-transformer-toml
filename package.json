@@ -14,10 +14,16 @@
     "dependencies": {
         "toml": "^3.0.0"
     },
+    "devDependencies": {
+        "jest": "^24.7.1"
+    },
     "publishConfig": {
         "access": "public"
     },
     "engines": {
         "node": ">=8"
+    },
+    "scripts": {
+        "test": "jest"
     }
 }
