@@ -1,0 +1,23 @@
+{
+    "version": "0.1.o",
+    "name": "gridsome-transformer-toml",
+    "description": "TOML transformer for Gridsome.",
+    "homepage": "https://github.com/myles/gridsome-transformer-toml",
+    "repository": "https://github.com/myles/gridsome-transformer-toml",
+    "main": "index.js",
+    "keywords": [
+        "gridsome",
+        "gridsome-plugin",
+        "gridsome-transformer",
+        "toml"
+    ],
+    "dependencies": {
+        "toml": "^3.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=8"
+    }
+}
