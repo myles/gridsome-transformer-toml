@@ -2,15 +2,13 @@ const toml = require('toml')
 
 class TomlTransformer {
   static mimeTypes () {
-    return ['text/toml']
+    return ['text/x-toml']
   }
 
-  parse (content) {
-    const data = toml.parse(content)
+  parse (source) {
+    const data = toml.parse(source)
 
-    const fields = typeof data !== 'object' || Array.isArray(data)
-      ? { data }
-      : data
+    const fields = { data }
 
     return { fields }
   }

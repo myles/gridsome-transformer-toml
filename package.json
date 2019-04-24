@@ -15,6 +15,10 @@
         "toml": "^3.0.0"
     },
     "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-vue": "^5.2.2",
+        "eslint-plugin-vue-libs": "^3.0.0",
         "jest": "24.7.1"
     },
     "publishConfig": {
@@ -24,6 +28,7 @@
         "node": ">=8"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "lint": "eslint \"index.js\" \"__test__/**/*.js\""
     }
 }
