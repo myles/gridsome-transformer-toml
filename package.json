@@ -16,7 +16,7 @@
     },
     "devDependencies": {
         "eslint": "6.0.1",
-        "eslint-plugin-node": "9.1.0",
+        "eslint-plugin-node": "9.2.0",
         "eslint-plugin-vue": "5.2.3",
         "eslint-plugin-vue-libs": "4.0.0",
         "jest": "24.8.0"
