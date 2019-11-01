@@ -2,7 +2,7 @@ const toml = require('toml')
 
 class TomlTransformer {
   static mimeTypes () {
-    return ['text/x-toml']
+    return ['application/x-toml', 'text/x-toml']
   }
 
   parse (source) {
